@@ -19,7 +19,7 @@ function showError(input, massage) {        //функиция показа ош
     const formControl = input.parentElement // получаем родительскую форму
     const errorElement = formControl.querySelector('.error') || document.createElement('div')
     
-    errorElement.class = 'error' // CSS-стиль для блока ошибки
+    errorElement.className = 'error' // CSS-стиль для блока ошибки
     errorElement.textContent = message // задаем сообщение об ошибке из параметра функции
     formControl.appendChild(errorElement) // добавляем компонент ошибки на форму
     input.style.borderColor = 'red' // добавляем красную обводку поля с ошибкой

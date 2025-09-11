@@ -13,4 +13,4 @@
 Тут будут описаны возможности
 
 ## Ссылка на сайт
-Ссылка: (https://barviha1.github.io/my_project_07/)
+Ссылка: (https://barviha1.github.io/my_project_07/src/index.html)
